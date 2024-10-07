@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class IOTest {
     
-    // Mthod to read the file using InputStream
+    // Method to read the file using InputStream
     public static void readFile (String filepath) throws IOException{
         // Creating FileInputStream to read the file
         FileInputStream fis = new FileInputStream(filepath);
